@@ -1,9 +1,9 @@
-<template lang="">
+<script setup>
+import contactComponent from "../components/contactComponent.vue";
+</script>
+
+<template>
   <div class="content">
-    <h1>Contact View</h1>
+    <contactComponent />
   </div>
 </template>
-<script>
-export default {};
-</script>
-<style lang=""></style>

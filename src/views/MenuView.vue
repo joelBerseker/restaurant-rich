@@ -1,7 +1,9 @@
-<template>
-  <div class="content">menuView</div>
-</template>
-<script>
-export default {};
+<script setup>
+import menuComponent from "../components/menuComponent.vue";
 </script>
-<style lang=""></style>
+
+<template>
+  <div class="content">
+    <menuComponent />
+  </div>
+</template>

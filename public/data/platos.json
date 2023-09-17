@@ -1,0 +1,74 @@
+{
+  "platos": [
+    {
+      "id": 1,
+      "nombre": "Ensalada César",
+      "categoria_id": 1,
+      "precio": 9.99,
+      "descripcion": "Fresca ensalada con aderezo César y crutones.",
+      "imagen": "/public/platos/ensalada-cesar.jpg",
+      "promotion": true,
+      "descuento": 0.1
+    },
+    {
+      "id": 2,
+      "nombre": "Filete de Salmón a la Parrilla",
+      "categoria_id": 2,
+      "precio": 19.99,
+      "descripcion": "Filete de salmón fresco a la parrilla con salsa de limón.",
+      "imagen": "/public/platos/pescado-a-la-parrilla.jpg",
+      "promotion": false,
+      "descuento": 0.1
+    },
+    {
+      "id": 3,
+      "nombre": "Tarta de Chocolate",
+      "categoria_id": 3,
+      "precio": 7.99,
+      "descripcion": "Deliciosa tarta de chocolate con crema batida.",
+      "imagen": "/public/platos/tarta-chocolate.jpeg",
+      "promotion": true,
+      "descuento": 0.1
+    },
+    {
+      "id": 4,
+      "nombre": "Calamares Fritos",
+      "categoria_id": 1,
+      "precio": 12.99,
+      "descripcion": "Calamares frescos fritos con salsa de pimiento.",
+      "imagen": "/public/platos/calamares.jpg",
+      "promotion": true,
+      "descuento": 0.1
+    },
+    {
+      "id": 5,
+      "nombre": "Lasaña de Carne",
+      "categoria_id": 2,
+      "precio": 16.99,
+      "descripcion": "Lasaña casera de carne con queso gratinado.",
+      "imagen": "/public/platos/lasana-de-carne.jpg",
+      "promotion": false,
+      "descuento": 0.1
+    },
+    {
+      "id": 6,
+      "nombre": "Sopa de Tomate",
+      "categoria_id": 1,
+      "precio": 8.99,
+      "descripcion": "Sopa de tomate caliente y deliciosa.",
+      "imagen": "/public/platos/sopatomate.jpg",
+      "promotion": true,
+      "descuento": 0.1
+    },
+    {
+      "id": 7,
+      "nombre": "Pizza Margarita",
+      "categoria_id": 2,
+      "precio": 14.99,
+      "descripcion": "Pizza con salsa de tomate, mozzarella y albahaca.",
+      "imagen": "/public/platos/pizza-margarita.jpeg",
+      "promotion": false,
+      "descuento": 0.1
+    }
+  ]
+}

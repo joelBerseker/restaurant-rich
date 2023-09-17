@@ -1,7 +1,9 @@
-<script setup></script>
+<script setup>
+import HomeComponent from "../components/homeComponent.vue";
+</script>
 
 <template>
   <div class="content">
-    <h1>home Component</h1>
+    <HomeComponent />
   </div>
 </template>

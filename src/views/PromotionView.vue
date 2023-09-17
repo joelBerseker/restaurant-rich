@@ -1,7 +1,9 @@
-<template>
-  <div class="content">PROMOTION VIEW</div>
-</template>
-<script>
-export default {};
+<script setup>
+import promotionComponent from "../components/promotionComponent.vue";
 </script>
-<style lang=""></style>
+
+<template>
+  <div class="content">
+    <promotionComponent />
+  </div>
+</template>

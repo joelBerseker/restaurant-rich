@@ -1,5 +1,7 @@
 <template>
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <nav
+    class="navbar navbar-expand-lg navbar-light bg-light fixed-top navbar-with-margin"
+  >
     <div class="container-fluid">
       <RouterLink to="/" class="navbar-brand"
         >Restaurant Campestre Rich</RouterLink
@@ -16,7 +18,7 @@
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav me-auto mb-2 offset-7 mb-lg-0">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
           <li v-for="item in nav_items" class="nav-item">
             <i :class="item.icon"></i>
             <RouterLink :to="item.path" class="navbar-brand">{{
@@ -52,4 +54,9 @@ export default {
   },
 };
 </script>
-<style lang=""></style>
+<style scoped>
+/* Estilos personalizados según tus preferencias */
+.navbar-with-margin {
+  margin-bottom: 20px; /* Ajusta el valor según la altura deseada */
+}
+</style>
