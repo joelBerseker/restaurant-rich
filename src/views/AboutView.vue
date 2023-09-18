@@ -4,7 +4,7 @@
     <div class="row justify-content-center">
       <div class="col-lg-6">
         <img
-          src="/restaurant-rich/about.jpg"
+          src="/public/about.jpg"
           alt="Imagen del Restaurante"
           class="img-fluid rounded-circle mb-4"
         />
