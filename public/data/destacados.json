@@ -1,0 +1,9 @@
+{
+  "lunes": { "plato1": 9, "plato2": 10 },
+  "martes": { "plato1": 11, "plato2": 12 },
+  "miercoles": { "plato1": 13, "plato2": 14 },
+  "jueves": { "plato1": 15, "plato2": 16 },
+  "viernes": { "plato1": 17, "plato2": 18 },
+  "sabado": { "plato1": 19, "plato2": 20 },
+  "domingo": { "plato1": 21, "plato2": 22 }
+}

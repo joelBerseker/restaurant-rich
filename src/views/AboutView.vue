@@ -49,9 +49,9 @@
           </li>
           <li>
             <strong>Entorno Natural:</strong> Situado en medio de exuberantes
-            paisajes campestres, [Nombre del Restaurante] ofrece un ambiente
-            único donde los comensales pueden disfrutar de sus comidas rodeados
-            de la belleza natural de la región.
+            paisajes campestres, El Establo de Rich ofrece un ambiente único
+            donde los comensales pueden disfrutar de sus comidas rodeados de la
+            belleza natural de la región.
           </li>
         </ul>
       </div>

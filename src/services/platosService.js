@@ -26,4 +26,18 @@ export default {
       throw error;
     }
   },
+  async buscarPlatoPorId(platoId) {
+    try {
+      const response = await axios.get(JSON_URL);
+      const platos = response.data.platos;
+      const platoEncontrado = platos.find((plato) => plato.id === platoId);
+      if (platoEncontrado) {
+        return platoEncontrado;
+      } else {
+        throw error;
+      }
+    } catch (error) {
+      throw error;
+    }
+  },
 };

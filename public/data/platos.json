@@ -69,6 +69,146 @@
       "imagen": "/public/platos/pizza-margarita.jpeg",
       "promotion": false,
       "descuento": 0.1
+    },
+    {
+      "id": 9,
+      "nombre": "Especial de Lunes - Chaque",
+      "categoria_id": 4,
+      "precio": 12.99,
+      "descripcion": "Un delicioso plato para comenzar la semana con energía.",
+      "imagen": "/public/platos/chaque.jpg",
+      "promotion": true,
+      "descuento": 0.1
+    },
+    {
+      "id": 10,
+      "nombre": "Chuleta de Res",
+      "categoria_id": 2,
+      "precio": 7.99,
+      "descripcion": "Un buen plato, con una buena carne.",
+      "imagen": "/public/platos/chuleta-res.jpg",
+      "promotion": false,
+      "descuento": 0
+    },
+    {
+      "id": 11,
+      "nombre": "Especial de Martes - Chairo",
+      "categoria_id": 4,
+      "precio": 10.99,
+      "descripcion": "Sabrosos tacos con tu elección de carne y salsas.",
+      "imagen": "/public/platos/chairo.jpg",
+      "promotion": false,
+      "descuento": 0
+    },
+    {
+      "id": 12,
+      "nombre": "Chicharron de Pollo",
+      "categoria_id": 2,
+      "precio": 8.99,
+      "descripcion": "Un buen chicharron de Pollo porque tu cuerpo lo merece.",
+      "imagen": "/public/platos/chicharron-pollo.jpg",
+      "promotion": true,
+      "descuento": 0.15
+    },
+    {
+      "id": 13,
+      "nombre": "Especial de Miercoles - Chochoca",
+      "categoria_id": 4,
+      "descripcion": "Platos de pasta fresca y pizzas deliciosas.",
+      "precio": 14.99,
+      "imagen": "/public/platos/chochoca.jpg",
+      "promotion": true,
+      "descuento": 0.15
+    },
+    {
+      "id": 14,
+      "nombre": "Sarza de Senca",
+      "descripcion": "Una buena Sarza de Senca para media semana con los mejores ingredientes.",
+      "categoria_id": 1,
+      "precio": 11.99,
+      "imagen": "/public/platos/sarza-senca.jpeg",
+      "promotion": true,
+      "descuento": 0.15
+    },
+    {
+      "id": 15,
+      "nombre": "Especial de Miercoles Jueves - Chupe",
+      "descripcion": "Sopa especial de Mariscos frescos preparados con esmero.",
+      "categoria_id": 4,
+      "precio": 16.99,
+      "imagen": "/public/platos/chupe.jpeg",
+      "promotion": true,
+      "descuento": 0.15
+    },
+    {
+      "id": 16,
+      "nombre": "Chicharron de Chancho",
+      "categoria_id": 2,
+      "descripcion": "Un buen chicharron de Chancho siempre cae bien",
+      "precio": 40,
+      "imagen": "/public/platos/chicharron-chancho.jpeg",
+      "promotion": true,
+      "descuento": 0.1
+    },
+    {
+      "id": 17,
+      "nombre": "Especial de Viernes - Solterito de Queso",
+      "categoria_id": 1,
+      "descripcion": "Un buen soltero para empezar un buen fin de Semana",
+      "precio": 18.99,
+      "imagen": "/public/platos/soltero-de-queso.jpg",
+      "promotion": true,
+      "descuento": 0.15
+    },
+    {
+      "id": 18,
+      "nombre": "Lomo Saltado Montado",
+      "categoria_id": 2,
+      "descripcion": "Variedad de sushi fresco y delicioso.",
+      "precio": 15.99,
+      "imagen": "/public/platos/lomo-montado.jpg",
+      "promotion": true,
+      "descuento": 0.15
+    },
+    {
+      "id": 19,
+      "nombre": "Sábado Sabroso  - Caldo de lomo",
+      "categoria_id": 4,
+      "descripcion": "Caldo de lomo tipico de Arequipa",
+      "precio": 20.99,
+      "imagen": "/public/platos/caldo-lomo.jpg",
+      "promotion": true,
+      "descuento": 0.15
+    },
+    {
+      "id": 20,
+      "nombre": "Triple Arequipeño",
+      "categoria_id": 2,
+      "descripcion": "Un filete mignon tierno y jugoso con guarniciones elegantes.",
+      "precio": 22.99,
+      "imagen": "/public/platos/triple.jpg",
+      "promotion": true,
+      "descuento": 0.15
+    },
+    {
+      "id": 21,
+      "nombre": "Domingo de Adobo",
+      "categoria_id": 4,
+      "descripcion": "Platos tipico arequipeño, para comer todo tus domingos",
+      "precio": 17.99,
+      "imagen": "/public/platos/adobo.jpeg",
+      "promotion": true,
+      "descuento": 0.15
+    },
+    {
+      "id": 22,
+      "nombre": "Cuy Chactao",
+      "categoria_id": 2,
+      "descripcion": "Pollo asado al horno con hierbas y especias.",
+      "precio": 13.99,
+      "imagen": "/public/platos/Cuy-chactado.jpg",
+      "promotion": false,
+      "descuento": 0.15
     }
   ]
 }
