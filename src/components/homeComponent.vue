@@ -140,11 +140,7 @@
     <div class="row">
       <!-- Columna para la imagen del chef -->
       <div class="col-md-6 col-lg-4 order-md-1">
-        <img
-          src="/restaurant-rich/public/chef.png"
-          alt="Imagen del Chef"
-          class="img-fluid"
-        />
+        <img src="/public/chef.png" alt="Imagen del Chef" class="img-fluid" />
       </div>
       <!-- Columna para las recomendaciones del chef -->
       <div class="col-md-6 col-lg-8 order-md-2">

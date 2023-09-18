@@ -21,9 +21,12 @@
         <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
           <li v-for="item in nav_items" class="nav-item">
             <i :class="item.icon"></i>
-            <RouterLink :to="item.path" class="navbar-brand">{{
-              item.title
-            }}</RouterLink>
+            <RouterLink
+              :to="item.path"
+              class="navbar-brand"
+              @click="closeNavbar"
+              >{{ item.title }}</RouterLink
+            >
           </li>
         </ul>
       </div>
@@ -49,7 +52,26 @@ export default {
   },
   methods: {
     toggleNavbar() {
-      // Implementa la función de toggling según tus necesidades
+      // Obtiene el elemento del menú de navegación utilizando Bootstrap
+      const navbar = document.querySelector(".navbar-collapse");
+
+      // Verifica si el menú está abierto o cerrado
+      const isOpen = navbar.classList.contains("show");
+
+      // Si el menú está abierto, ciérralo; de lo contrario, ábrelo
+      if (isOpen) {
+        navbar.classList.remove("show"); // Cierra el menú
+      } else {
+        navbar.classList.add("show"); // Abre el menú
+      }
+    },
+    closeNavbar() {
+      // Cierra el menú de navegación utilizando Bootstrap
+      const navbar = document.querySelector(".navbar-collapse");
+      if (navbar.classList.contains("show")) {
+        // Si el menú está abierto, lo cerramos
+        navbar.classList.remove("show");
+      }
     },
   },
 };
@@ -57,6 +79,12 @@ export default {
 <style scoped>
 /* Estilos personalizados según tus preferencias */
 .navbar-with-margin {
-  margin-bottom: 20px; /* Ajusta el valor según la altura deseada */
+  margin-bottom: 30px; /* Ajusta el valor según la altura deseada */
+}
+@media (max-width: 768px) {
+  .navbar-collapse {
+    max-height: calc(100vh - 56px); /* Ajusta la altura según tus necesidades */
+    overflow-y: auto; /* Agrega una barra de desplazamiento si es necesario */
+  }
 }
 </style>

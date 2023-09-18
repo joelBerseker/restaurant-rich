@@ -4,7 +4,7 @@
       <!-- Sidebar de Categorías -->
       <nav
         id="sidebar"
-        class="col-md-3 col-lg-2 d-md-block bg-light sidebar t-5 mr-3 mb-3"
+        class="col-md-3 col-lg-2 d-none d-md-block bg-light sidebar t-5 mr-3 mb-3"
         style="padding: 20px"
       >
         <div class="position-sticky mt-5">
@@ -28,7 +28,18 @@
           </ul>
         </div>
       </nav>
-
+      <button
+        class="navbar-toggler mt-5"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#sidebar"
+        aria-controls="sidebar"
+        aria-expanded="false"
+        aria-label="Toggle sidebar"
+        @click="toggleSidebar"
+      >
+        <span class="navbar-toggler-icon"> </span>
+      </button>
       <!-- Lista de Platos -->
       <main class="mt-5 ml-3 col-md-9 ms-sm-auto col-lg-10 px-md-4">
         <div
@@ -97,6 +108,12 @@ export default {
     },
   },
   methods: {
+    toggleSidebar() {
+      const sidebar = document.getElementById("sidebar");
+      if (sidebar) {
+        sidebar.classList.toggle("show-sidebar"); // Agrega o quita una clase CSS para mostrar u ocultar el sidebar
+      }
+    },
     filtrarPorCategoria(categoriaId) {
       this.categoriaSeleccionada = categoriaId;
       this.filtroActivo = true;
