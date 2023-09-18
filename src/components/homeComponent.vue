@@ -51,7 +51,10 @@
                 culinaria única.
               </p>
               <p class="lead">
-                <a class="btn btn-primary btn-lg" href="/reservas" role="button"
+                <a
+                  class="btn btn-primary btn-lg"
+                  :href="dataReserva"
+                  role="button"
                   >Reservar mesa</a
                 >
               </p>
@@ -133,16 +136,14 @@
   </div>
   <div class="container mt-5">
     <!-- Sección de Recomendaciones del Chef -->
+    <h2 class="text-center">Recomendaciones del Chef</h2>
     <div class="row">
-      <div class="col-8 offset-2 mt-4 mb-4">
-        <h3>Recomendaciones de Nuestro Chef</h3>
-      </div>
       <!-- Columna para la imagen del chef -->
-      <div class="col-md-6">
+      <div class="col-md-6 col-lg-4 order-md-1">
         <img src="/public/chef.png" alt="Imagen del Chef" class="img-fluid" />
       </div>
       <!-- Columna para las recomendaciones del chef -->
-      <div class="col-md-6 chef-texto">
+      <div class="col-md-6 col-lg-8 order-md-2">
         <h3>Rocoto Relleno</h3>
         <p>
           Disfruta de nuestro plato estrella, el Rocoto Relleno. Un plato típico
@@ -172,6 +173,8 @@ export default {
   name: "home-component",
   data() {
     return {
+      dataReserva:
+        "https://wa.me/+51910172896?text=Quiero%20hacer%20una%20reserva%20en%20el%20establo%20de%20Rich%20para%20el%20dia",
       slice_items: [
         { title: "Image01", path: "/public/img1.jpg", interval: 2000 },
         { title: "Image02", path: "/public/img2.jpg", interval: 2000 },
