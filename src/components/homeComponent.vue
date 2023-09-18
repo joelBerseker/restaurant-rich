@@ -140,7 +140,11 @@
     <div class="row">
       <!-- Columna para la imagen del chef -->
       <div class="col-md-6 col-lg-4 order-md-1">
-        <img src="/public/chef.png" alt="Imagen del Chef" class="img-fluid" />
+        <img
+          src="/restaurant-rich/public/chef.png"
+          alt="Imagen del Chef"
+          class="img-fluid"
+        />
       </div>
       <!-- Columna para las recomendaciones del chef -->
       <div class="col-md-6 col-lg-8 order-md-2">
@@ -176,9 +180,21 @@ export default {
       dataReserva:
         "https://wa.me/+51910172896?text=Quiero%20hacer%20una%20reserva%20en%20el%20establo%20de%20Rich%20para%20el%20dia",
       slice_items: [
-        { title: "Image01", path: "/public/img1.jpg", interval: 2000 },
-        { title: "Image02", path: "/public/img2.jpg", interval: 2000 },
-        { title: "Image03", path: "/public/img3.jpg", interval: 2000 },
+        {
+          title: "Image01",
+          path: "/restaurant-rich/img1.jpg",
+          interval: 2000,
+        },
+        {
+          title: "Image02",
+          path: "/restaurant-rich/img2.jpg",
+          interval: 2000,
+        },
+        {
+          title: "Image03",
+          path: "/restaurant-rich/img3.jpg",
+          interval: 2000,
+        },
       ],
       platosDestacados: [],
       platosDestacadosPorDia: {},

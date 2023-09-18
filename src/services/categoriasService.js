@@ -4,7 +4,7 @@
 import axios from "axios";
 
 // Ruta al archivo JSON que contiene las categorías
-const JSON_URL = "../data/categorias.json"; // Reemplaza con la ruta correcta
+const JSON_URL = "/restaurant-rich/data/categorias.json"; // Reemplaza con la ruta correcta
 
 export default {
   async getCategorias() {

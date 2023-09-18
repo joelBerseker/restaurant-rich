@@ -2,7 +2,7 @@
 
 import axios from "axios";
 
-const JSON_URL = "/data/destacados.json";
+const JSON_URL = "/restaurant-rich/data/destacados.json";
 export default {
   async getDestacados() {
     try {
