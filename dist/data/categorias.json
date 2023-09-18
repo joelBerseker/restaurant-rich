@@ -1,0 +1,20 @@
+{
+  "categorias": [
+    {
+      "id": 1,
+      "nombre": "Entradas"
+    },
+    {
+      "id": 4,
+      "nombre": "Caldos"
+    },
+    {
+      "id": 2,
+      "nombre": "Platos Principales"
+    },
+    {
+      "id": 3,
+      "nombre": "Postres"
+    }
+  ]
+}
