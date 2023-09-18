@@ -6,7 +6,7 @@
       "categoria_id": 1,
       "precio": 9.99,
       "descripcion": "Fresca ensalada con aderezo César y crutones.",
-      "imagen": "/public/platos/ensalada-cesar.jpg",
+      "imagen": "/restaurant-rich/platos/ensalada-cesar.jpg",
       "promotion": true,
       "descuento": 0.1
     },
@@ -16,7 +16,7 @@
       "categoria_id": 2,
       "precio": 19.99,
       "descripcion": "Filete de salmón fresco a la parrilla con salsa de limón.",
-      "imagen": "/public/platos/pescado-a-la-parrilla.jpg",
+      "imagen": "/restaurant-rich/platos/pescado-a-la-parrilla.jpg",
       "promotion": false,
       "descuento": 0.1
     },
@@ -26,7 +26,7 @@
       "categoria_id": 3,
       "precio": 7.99,
       "descripcion": "Deliciosa tarta de chocolate con crema batida.",
-      "imagen": "/public/platos/tarta-chocolate.jpeg",
+      "imagen": "/restaurant-rich/platos/tarta-chocolate.jpeg",
       "promotion": true,
       "descuento": 0.1
     },
@@ -36,7 +36,7 @@
       "categoria_id": 1,
       "precio": 12.99,
       "descripcion": "Calamares frescos fritos con salsa de pimiento.",
-      "imagen": "/public/platos/calamares.jpg",
+      "imagen": "/restaurant-rich/platos/calamares.jpg",
       "promotion": true,
       "descuento": 0.1
     },
@@ -46,7 +46,7 @@
       "categoria_id": 2,
       "precio": 16.99,
       "descripcion": "Lasaña casera de carne con queso gratinado.",
-      "imagen": "/public/platos/lasana-de-carne.jpg",
+      "imagen": "/restaurant-rich/platos/lasana-de-carne.jpg",
       "promotion": false,
       "descuento": 0.1
     },
@@ -56,7 +56,7 @@
       "categoria_id": 1,
       "precio": 8.99,
       "descripcion": "Sopa de tomate caliente y deliciosa.",
-      "imagen": "/public/platos/sopatomate.jpg",
+      "imagen": "/restaurant-rich/platos/sopatomate.jpg",
       "promotion": true,
       "descuento": 0.1
     },
@@ -66,7 +66,7 @@
       "categoria_id": 2,
       "precio": 14.99,
       "descripcion": "Pizza con salsa de tomate, mozzarella y albahaca.",
-      "imagen": "/public/platos/pizza-margarita.jpeg",
+      "imagen": "/restaurant-rich/platos/pizza-margarita.jpeg",
       "promotion": false,
       "descuento": 0.1
     },
@@ -76,7 +76,7 @@
       "categoria_id": 4,
       "precio": 12.99,
       "descripcion": "Un delicioso plato para comenzar la semana con energía.",
-      "imagen": "/public/platos/chaque.jpg",
+      "imagen": "/restaurant-rich/platos/chaque.jpg",
       "promotion": true,
       "descuento": 0.1
     },
@@ -86,7 +86,7 @@
       "categoria_id": 2,
       "precio": 7.99,
       "descripcion": "Un buen plato, con una buena carne.",
-      "imagen": "/public/platos/chuleta-res.jpg",
+      "imagen": "/restaurant-rich/platos/chuleta-res.jpg",
       "promotion": false,
       "descuento": 0
     },
@@ -96,7 +96,7 @@
       "categoria_id": 4,
       "precio": 10.99,
       "descripcion": "Sabrosos tacos con tu elección de carne y salsas.",
-      "imagen": "/public/platos/chairo.jpg",
+      "imagen": "/restaurant-rich/platos/chairo.jpg",
       "promotion": false,
       "descuento": 0
     },
@@ -106,7 +106,7 @@
       "categoria_id": 2,
       "precio": 8.99,
       "descripcion": "Un buen chicharron de Pollo porque tu cuerpo lo merece.",
-      "imagen": "/public/platos/chicharron-pollo.jpg",
+      "imagen": "/restaurant-rich/platos/chicharron-pollo.jpg",
       "promotion": true,
       "descuento": 0.15
     },
@@ -116,7 +116,7 @@
       "categoria_id": 4,
       "descripcion": "Platos de pasta fresca y pizzas deliciosas.",
       "precio": 14.99,
-      "imagen": "/public/platos/chochoca.jpg",
+      "imagen": "/restaurant-rich/platos/chochoca.jpg",
       "promotion": true,
       "descuento": 0.15
     },
@@ -126,7 +126,7 @@
       "descripcion": "Una buena Sarza de Senca para media semana con los mejores ingredientes.",
       "categoria_id": 1,
       "precio": 11.99,
-      "imagen": "/public/platos/sarza-senca.jpeg",
+      "imagen": "/restaurant-rich/platos/sarza-senca.jpeg",
       "promotion": true,
       "descuento": 0.15
     },
@@ -136,7 +136,7 @@
       "descripcion": "Sopa especial de Mariscos frescos preparados con esmero.",
       "categoria_id": 4,
       "precio": 16.99,
-      "imagen": "/public/platos/chupe.jpeg",
+      "imagen": "/restaurant-rich/platos/chupe.jpeg",
       "promotion": true,
       "descuento": 0.15
     },
@@ -146,7 +146,7 @@
       "categoria_id": 2,
       "descripcion": "Un buen chicharron de Chancho siempre cae bien",
       "precio": 40,
-      "imagen": "/public/platos/chicharron-chancho.jpeg",
+      "imagen": "/restaurant-rich/platos/chicharron-chancho.jpeg",
       "promotion": true,
       "descuento": 0.1
     },
@@ -156,7 +156,7 @@
       "categoria_id": 1,
       "descripcion": "Un buen soltero para empezar un buen fin de Semana",
       "precio": 18.99,
-      "imagen": "/public/platos/soltero-de-queso.jpg",
+      "imagen": "/restaurant-rich/platos/soltero-de-queso.jpg",
       "promotion": true,
       "descuento": 0.15
     },
@@ -166,7 +166,7 @@
       "categoria_id": 2,
       "descripcion": "Variedad de sushi fresco y delicioso.",
       "precio": 15.99,
-      "imagen": "/public/platos/lomo-montado.jpg",
+      "imagen": "/restaurant-rich/platos/lomo-montado.jpg",
       "promotion": true,
       "descuento": 0.15
     },
@@ -176,7 +176,7 @@
       "categoria_id": 4,
       "descripcion": "Caldo de lomo tipico de Arequipa",
       "precio": 20.99,
-      "imagen": "/public/platos/caldo-lomo.jpg",
+      "imagen": "/restaurant-rich/platos/caldo-lomo.jpg",
       "promotion": true,
       "descuento": 0.15
     },
@@ -186,7 +186,7 @@
       "categoria_id": 2,
       "descripcion": "Un filete mignon tierno y jugoso con guarniciones elegantes.",
       "precio": 22.99,
-      "imagen": "/public/platos/triple.jpg",
+      "imagen": "/restaurant-rich/platos/triple.jpg",
       "promotion": true,
       "descuento": 0.15
     },
@@ -196,7 +196,7 @@
       "categoria_id": 4,
       "descripcion": "Platos tipico arequipeño, para comer todo tus domingos",
       "precio": 17.99,
-      "imagen": "/public/platos/adobo.jpeg",
+      "imagen": "/restaurant-rich/platos/adobo.jpeg",
       "promotion": true,
       "descuento": 0.15
     },
@@ -206,7 +206,7 @@
       "categoria_id": 2,
       "descripcion": "Pollo asado al horno con hierbas y especias.",
       "precio": 13.99,
-      "imagen": "/public/platos/Cuy-chactado.jpg",
+      "imagen": "/restaurant-rich/platos/Cuy-chactado.jpg",
       "promotion": false,
       "descuento": 0.15
     }
